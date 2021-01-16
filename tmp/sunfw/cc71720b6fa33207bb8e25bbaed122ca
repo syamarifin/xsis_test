@@ -1,0 +1,48 @@
+{
+  "developer": [
+    {
+      "id": "ecourse",
+      "name": "JSN eCourse",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_ecourse/thumbnail_ecourse.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ecourse/pro/ecourse/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ecourse_pro_ecourse_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "esmart",
+      "name": "JSN eSmart",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_ecourse/thumbnail_esmart.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ecourse/pro/esmart/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ecourse_pro_esmart_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "ecourse",
+      "name": "JSN eCourse",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_ecourse/thumbnail_ecourse.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ecourse/pro/ecourse/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ecourse_pro_ecourse_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "esmart",
+      "name": "JSN eSmart",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_ecourse/thumbnail_esmart.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ecourse/pro/esmart/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ecourse_pro_esmart_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "ecourse",
+      "name": "JSN eCourse",
+            "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_ecourse/thumbnail_ecourse.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ecourse/pro/ecourse/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ecourse_pro_ecourse_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}

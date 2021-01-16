@@ -1,0 +1,328 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template  
+# ---------------------------------------------------------------
+# Author - joomlatd http://www.joomlatd.com
+# Copyright (C) 2008 - 2019 joomlatd.com. All Rights Reserved.
+# Websites: http://www.joomlatd.com
+-----------------------------------------------------------------*/
+/* Core */
+
+body.bg{background:#fff}
+body{color:#000;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:150%}
+a{text-decoration:none;}
+a:hover,a:active,a:focus{text-decoration:none;}
+.ju-base{margin-left:auto;margin-right:auto;position: relative;}
+.ju-block{float:left;display:inline}
+.mod-block {padding:10px}
+.ju-inner{padding-left:10px;padding-right:10px}
+.ju-block .first {margin-left:-10px}
+.ju-block .last {margin-right:-10px}
+.ju-block .single {margin-left:-10px;margin-right:-10px}
+.gap{clear:both;margin-bottom:10px}
+.main-bg {background:#fff; }
+.top-bg{background:#f1f1f1;}
+.tp-bannertimer {z-index: 28 !important;}
+/*top bar*/
+#ju-top-header { color: #111; background-color:#f1f1f1;}
+#ju-banner,
+#ju-bookmarks,
+#members-area{float:right}
+#ju-search{float:left}
+
+#ju-top-menu{margin-top:7px;margin-bottom: 7px;}
+#ju-top-menu ul.menu {margin:0;padding:0;}
+#ju-top-menu li{display:inline-block;list-style:none;padding:0 2px;line-height:12px}
+#ju-top-menu li a{ background-color: #f1f1f1;padding: 7px; border:1px solid #ddd;
+	background-image: -webkit-linear-gradient(top,  #fff, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);}
+#ju-top-menu li a:hover {color: #111;background-color: #fafafa !important; padding: 7px;
+	background-image: -webkit-linear-gradient(top,  #fff, #fafafa);
+	background-image: -moz-linear-gradient(top, #fff, #fafafa);
+	background-image: -ms-linear-gradient(top, #fff, #fafafa);
+	background-image: -o-linear-gradient(top, #fff, #fafafa);}
+
+/*Header*/
+a#logo,#logo-text,a#logom{float:left}
+#logo-text h1{font-size:210%;font-weight:bold;text-transform:uppercase;border:0!important;margin:10px 0 0!important;padding:0!important}
+#logo-text h1 a{}
+#logo-text p.site-slogan{margin:0;padding:0;color:#999}
+
+/*Module positions bottom*/
+.fixed-footer{color:#fff; background-color: rgba(0,0,0,0.8);}
+
+/*search*/
+#ju-search .mod-search input#mod-search-searchword, 
+#ju-search .mod-search input#mod-finder-searchword{background:#fafafa url(../images/search.png) no-repeat 3% 50%; padding-left:28px;margin:0;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	box-shadow:0 0 6px rgba(255,255,255,.1) inset;
+}
+
+/* Layout */
+#ju-leftcol, #ju-rightcol, #ju-maincol ,#ju-sideleft, #ju-sideright, #inner_content {float:left}
+#ju-leftcol, #ju-rightcol, #ju-maincol {padding:10px 0}
+#sj-br{position: absolute; top: 0px; left: -5500px;}
+
+/*Font Resizer*/
+div.font-sizer{width:62px;height:16px;line-height:16px;float: right;}
+div.font-sizer a.btn_fs_big,div.font-sizer a.btn_fs_reset,div.font-sizer a.btn_fs_small
+{background-image:url(../images/font-resizer.png);background-repeat:no-repeat;height:16px;width:18px;border:medium none;cursor:pointer;display:block;float:left;text-indent:-999em;padding:0;}
+div.font-sizer a.btn_fs_big{background-position:0 0}
+div.font-sizer a.btn_fs_reset{background-position:-19px 0}
+div.font-sizer a.btn_fs_small{background-position:-37px 0}
+div.font-sizer a.btn_fs_big:hover{background-position:0 -16px}
+div.font-sizer a.btn_fs_reset:hover{background-position:-19px -16px}
+div.font-sizer a.btn_fs_small:hover{background-position:-37px -16px}
+
+/* Breadcrumbs */
+#ju-breadcrumbs .ju-inner {padding:0}
+#ju-breadcrumbs .breadcrumb {
+	margin:0;
+	background:transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border-top:1px solid #e7e7e7;
+	border-bottom:1px solid #e7e7e7	
+}
+
+/* Footer */
+#ju-footer{background: #f1f1f1; color: #000;padding:25px 0;}
+#ju-footer .cp {float:left;}
+
+/*Footer Navigation*/
+#ju-footer-nav{float:right}
+#ju-footer-nav ul{list-style-type:none;padding:0;margin:0 0 5px 0}
+#ju-footer-nav li{background:none;padding:0;display:inline} 
+#ju-footer-nav .nav > li > a:hover {background:none;}
+#ju-footer-nav a{font-weight:normal;text-decoration:none;display:inline;margin:0;padding:0 8px;}
+a#pagetop{float:right; }
+
+/* clr */
+.clr{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+/* template colors */
+div.color-site{height:14px;line-height:14px; text-align: center; margin-top: 5px;position: relative; z-index: 10; }
+div.color-site a {padding: 0px 5px; height: 14px; -webkit-border-radius: 35px!important;
+-moz-border-radius: 35px!important;
+-moz-border-radiust: 35px!important;
+border-radius: 35px!important;}
+div.color-site a.btn_fs_blue{ background: #369; color: #369;}
+div.color-site a.btn_fs_red{ background: #c30; color: #c30;}
+div.color-site a.btn_fs_orange{ background: #e6af45; color: #e6af45;}
+div.color-site a.btn_fs_green{ background: #80b353; color: #80b353;}
+div.color-site a.btn_fs_brown{ background: #963; color: #963;}
+div.color-site a.btn_fs_lilac{ background: #ad77bb; color: #ad77bb;}
+
+/* Button, Input */
+
+input, select, textarea, .inputbox, button, .button, input[type="button"], input[type="submit"] {
+	padding: 3px;
+}
+
+
+select, input[type="text"], input[type="password"], input[type="email"], textarea, .inputbox, .validate-username, .validate-password { 
+	border: 0; background: #fff; color:#999;
+	-webkit-box-shadow: 0 0 0 1px #ccc inset; box-shadow: 0 0 0 1px #ccc inset;
+	border-radius: 3px; -webkit-border-radius: 3px;
+}
+
+#ol-topsl .inputbox, #ol-botsl .inputbox, #ol-user-panel .inputbox {}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover,
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus,
+.inputbox:hover, .inputbox:focus, select:hover, select:focus,
+ textarea:hover, textarea:focus { background: #ffffcc; color:#666; }
+
+
+select.inputbox:focus {outline:none;}
+
+.browserChrome input[type="text"]:focus, .browserChrome input[type="password"]:focus, .browserChrome input[type="email"]:focus,
+.browserSafari input[type="text"]:focus, .browserSafari input[type="password"]:focus, .browserSafari input[type="email"]:focus,
+.browserChrome .inputbox:focus, .browserChrome  textarea:focus,
+.browserSafari .inputbox:focus, .browserSafari textarea:focus {outline: none;}
+
+/* buttons */
+.button, button, input[type="button"], input[type="submit"] {
+	line-height:24px;
+	color: #888;
+	text-transform: uppercase; 
+	border:0; 
+	font-size: 11px !important;
+	cursor:pointer;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px 15px !important;
+	text-shadow: 0 1px 1px rgba(0,0,0, 0.1);
+	-webkit-border-radius: 4px; border-radius: 4px;
+	-webkit-box-shadow: 0 0 0 1px #BBBBBB inset;	
+	-ms-box-shadow: 0 0 0 1px #bbbbbb inset;	
+	box-shadow: 0 0 0 1px #BBBBBB inset;
+	background: #f6f6f6;
+	background-image: -webkit-linear-gradient(top,  #fff, #eee);
+	background-image: -moz-linear-gradient(top, #fff, #eee);
+	background-image: -ms-linear-gradient(top, #ffffff, #eeeeee);
+	background-image: -o-linear-gradient(top, #fff, #eee);
+}
+
+
+.button:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+	color:#666 !important;
+	cursor: pointer; text-decoration: none !important;
+	background: #eee;
+	background-image: -webkit-linear-gradient(top,  #fff,  #ddd);
+	background-image: -moz-linear-gradient(top,  #fff,  #ddd);
+	background-image: -ms-linear-gradient(top,  #fff,  #ddd);
+	background-image: -o-linear-gradient(top,  #fff,  #ddd);
+}
+
+/*####################################################*/
+/*** SEARCH FORM ***/
+/*####################################################*/
+#ju-search {height: 40px;}
+#searchform {
+	z-index: 20;
+}
+
+#searchword {
+	width: 100%;
+	min-width: 100px;
+	background-color: ;
+	border: 1px solid rgba(255,255,255,0.2);
+	padding: 2px 0px 2px 42px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: rgba(235,235,235,0.04);
+	font-size: 12px;
+}
+
+#searchsubmit {
+    display: none;
+}
+.searchmenu:hover #searchsubmit {
+    background: url("../images/search.png") no-repeat scroll center center #f1f1f1;
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 34px;
+    z-index: 99;
+}
+
+.sbleft #s, .sbright #searchword {
+	margin-top: 10px;
+	width: 100%;
+	min-width: 0px;
+}
+
+.s-no-result #searchword {
+	width: 100%;
+	min-width: 0px;
+}
+
+.searchform:after {
+	content: "\f002"!important;
+	font-family: FontAwesome;
+	line-height: 16px!important;
+	font-size: 16px;
+	position: relative!important;
+	left: 0px;
+	margin-left: 12px;
+	top: -28px;
+	margin-top: -2px;
+	opacity: 0.2;
+	z-index:99;
+}
+
+#navs {
+	background:none;
+	text-indent: .75em; 
+	display: inline-block;
+	border: 0 none; 
+	width: 0; 
+	height: 34px; 
+	outline: none; 
+	padding: 0px 35px 0px 10px; 
+	cursor: pointer;
+	-webkit-appearance: none; 
+	font-weight: inherit; 
+	font-size: 15px;
+	line-height:normal!important;
+	font-family: inherit; 
+	color: #999;
+	float:right;
+	visibility:hidden;
+	vertical-align: baseline;
+	-webkit-backface-visibility: hidden;	
+	-webkit-transition:all 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-animation-duration: 1.5s!important;
+	-moz-animation-duration: 1.5s!important;
+	-o-animation-duration: 1.5s!important;
+	animation-duration: 1.5s!important;	
+}
+
+.searchmenu{
+	position:absolute; 
+	z-index:99; 
+	right:0px; 
+	top:5px; 
+	float:right;
+}
+
+.searchmenu:hover #navs{
+	background-color:#f1f1f1;
+	color:#000!important;
+}
+.searchmenu:hover #navs, .searchmenu placeholder {
+	color:#222;
+}
+
+.searchmenu:hover:after {
+	color:#222;
+}
+
+.searchmenu ::-webkit-input-placeholder {
+	color:#222;
+}
+
+.searchmenu :-moz-placeholder {
+	color:#222;
+}
+
+.searchmenu ::-moz-placeholder {
+	color:#222;
+}
+
+.searchmenu :-ms-input-placeholder {  
+	color:#222; 
+}
+
+.searchmenu:hover #navs{
+	width: 100%; cursor: text;
+	visibility:visible;
+}
+
+.searchmenu:after {
+	content: "\f002";
+	font-family: FontAwesome!important;
+	line-height: 18px!important;
+	font-size: 18px!important;
+	position:absolute;
+	right: 8px;
+	top: 8px;
+	opacity: 0.7;
+	color:inherit;
+}
